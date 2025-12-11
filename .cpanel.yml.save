@@ -1,0 +1,6 @@
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/homeexpa/admin.homeexparts.com/wp-content/uploads/staatic/deploy/
+    - /bin/rsync -av --delete ./ $DEPLOYPATH
+
+
